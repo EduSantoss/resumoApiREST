@@ -4,14 +4,14 @@
 
 - APIs REST e RESTful são abordagens para projetar e desenvolver interfaces de programação web que seguem os princípios do estilo arquitetural REST. REST é um conjunto de diretrizes que visa fornecer uma estrutura para a comunicação entre sistemas.
   
-### APIs REST
+### * APIs REST
 
 - Baseiam-se em princípios como statelessness (ausência de estado).
 - Identificação de recursos (cada recurso é único e acessado por meio de URLs).
 - Operações sobre recursos utilizando métodos HTTP.
 - Os dados são geralmente representados em formatos como JSON ou XML.
 
-### RESTful
+### * RESTful
 
 - Além dos princípios REST, uma API RESTful busca ser simples, escalável, e fácil de entender.
 - Interface uniforme: a API deve fornecer uma interface consistente e padronizada para acessar e manipular recursos.
@@ -60,7 +60,7 @@
 - Existem cinco categorias de códigos de status, sendo que o primeiro dígito do código define a classe de resposta. Por exemplo: o código de status 404 pertence à classe 4xx e indica erro no lado do cliente e, o código 502 pertence à classe 5xx e indica erro no lado do servidor.
 - São muitos os códigos de status HTTP, divididos entre cliente e servidor, aqui vão alguns exemplos do mais comuns e conhecidos:
 
-### 4xx (Client Error)
+### * 4xx (Client Error)
 
 - Indica que houve um erro por parte do cliente na solicitação.
 
@@ -69,7 +69,7 @@
 - 403 Forbidden: O cliente autenticado não tem permissão para acessar o recurso.
 - 404 Not Found: O recurso solicitado não foi encontrado no servidor.
 
-### 5xx (Server Error)
+### * 5xx (Server Error)
 
 - Indica que houve um erro por parte do servidor ao processar a solicitação do cliente.
 
@@ -80,4 +80,4 @@
 
 -------------------------------------------------------------------------------------------------------------------------------
 
- **Autor do resumo: Eduardo Henrique Bezerra dos Santos - 01530700**
+ **Autor do resumo: _Eduardo Henrique Bezerra dos Santos_ - 01530700**
